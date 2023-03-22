@@ -1,10 +1,10 @@
 #include "main.h"
-/**
- * main - the main function
- * _putchar: print the alphabets putchar
- * return: 0 (successful)
- */
 
+/**
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return: always 0 (successful)
+ */
 
 int main(void)
 {
