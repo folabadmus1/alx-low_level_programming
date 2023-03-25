@@ -5,7 +5,7 @@
  *
  * @n: The integer to be printed
  *
- * Return: 0
+ * Return: nothing
  */
 void print_number(int n)
 
@@ -16,6 +16,7 @@ void print_number(int n)
 	{
 	n *= -1;
 	k = n;
+	_putchar('-');
 	}
 	k /= 10;
 	if (k != 0)
