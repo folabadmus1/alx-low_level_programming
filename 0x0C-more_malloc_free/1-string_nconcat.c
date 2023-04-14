@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - A function that concatenates two strings.
+ * string_nconcat - A function that concatenate two strings.
  * @s1: The first concatenate.
  * @s2: The second concatenate.
  * @n: byte
@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (j < l)
 	{
 		if (j <= i)
-			str[j] = s1[i];
+			str[j] = s1[j];
 
 		if (j >= i)
 		{
@@ -49,8 +49,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 		j++;
 	}
-
 	str[j] = '\0';
 	return (str);
 }
-
