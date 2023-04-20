@@ -7,7 +7,7 @@
  *
  * @argc: Argument count.
  *
- * argv: Argument vector
+ * @argv: Argument vector
  *
  * Return: Always 0 (success)
  */
